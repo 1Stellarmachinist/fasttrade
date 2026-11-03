@@ -1,0 +1,17 @@
+# dependencies (none at runtime; this is a zero-dependency project)
+node_modules/
+package-lock.json
+
+# runtime output
+paper_result.json
+*.log
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# keep personal notes and outreach material out of the public repo
+SELLING.md

@@ -1,0 +1,41 @@
+{
+  "name": "fasttrade",
+  "version": "1.0.0",
+  "description": "A market-making engine, queue-aware simulator, and six live venue adapters, built to measure whether retail market making is viable. It isn't.",
+  "type": "module",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "market-making",
+    "market-microstructure",
+    "order-book",
+    "limit-order-book",
+    "backtesting",
+    "low-latency",
+    "hft",
+    "quantitative-finance",
+    "coinbase",
+    "polymarket",
+    "kalshi"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test.mjs",
+    "bench": "node bench.mjs",
+    "sim": "node sim.mjs",
+    "fees": "node fees.mjs",
+    "edge": "node edge.mjs",
+    "decompose": "node decompose.mjs",
+    "scenarios": "node scenarios.mjs",
+    "scan": "node live/scan.mjs",
+    "paper": "node live/paper.mjs",
+    "venues": "node live/compare.mjs",
+    "queue": "node live/queue.mjs",
+    "netstat": "node live/netstat.mjs",
+    "arb": "node live/arb.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
